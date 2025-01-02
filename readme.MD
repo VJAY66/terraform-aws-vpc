@@ -14,7 +14,7 @@ This module is going to create the following resources. for HA we are going to g
 *  Route table associations with subnets
 *  Peering with default VPC(if Required)
 *  Peering routes in acceptor and requestor route tables
-Inputs
+# Inputs
 *  project_name (Mandatory): User must supply their project name.
 *  environment (Mandatory): User must supply their environment name.
 *  vpc_cidr (Mandatory): User must supply their VPC CIDR.
@@ -35,7 +35,7 @@ Inputs
 *  database_route_table_tags (Optional): Default is empty. User can supply tags in map(string) format.
 *  is_peering_required (Optional): defaults to false
 *  vpc_peering_tags (Optional): Default is empty. User can supply tags in map(string) format.
-Outputs
+# Outputs
 *  vpc_id: VPC ID created
 *  public_subnet_ids: list of 2 public subnet ids created
 *  private_subnet_ids: list of 2 private subnet ids created
